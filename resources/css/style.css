@@ -1,0 +1,112 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 15px 60px 15px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #353535;
+    color:white;
+}
+
+.center-div{
+    width:400px;
+    height:500px;
+    background-color: lightblue;
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+/*
+ * Make a round div for image display
+ * --------------------------------------------------
+*/
+
+.round-image-div {
+
+    width: 200px;
+    height: 200px;
+    background: red;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    overflow:hidden;
+    margin:25px auto 0px auto;
+}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+.vertical-center{
+
+    display: flex;
+    align-items: center;
+}
+
+.display-block{
+
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.header-link{
+
+    font-size: 16px;
+    font-weight:bold;
+    color:white;
+}
+
+.header-link:hover{
+
+    text-decoration: none;
+    color:#286090;
+}
+
+.header-link:active{
+
+    text-decoration: none;
+}
+
+#header{
+
+    background-color: #353535;
+}
+
+#login_form{
+
+    height:inherit;
+    width: inherit;
+}
+
+#googleMap{
+
+    width:100%;
+    height:700px;
+}
+

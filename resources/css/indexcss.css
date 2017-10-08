@@ -1,0 +1,32 @@
+.center-div{
+    width:400px;
+    height:500px;
+    background-color: deepskyblue;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.round-image-div {
+
+    width: 200px;
+    height: 200px;
+    background: red;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    overflow:hidden;
+    margin:25px auto 0px auto;
+}
+
+#login_form{
+
+    height:inherit;
+    width: inherit;
+}
+
